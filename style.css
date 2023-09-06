@@ -1,0 +1,53 @@
+*{
+    background-color: rgb(159, 159, 165);
+}
+titles{
+    color: black;
+    font-size: 60px;
+    
+
+}
+
+#subtitulo{
+    color: rgb(165, 95, 4);
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+section div{
+text-align:center;
+}
+section div h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(165, 95, 4);
+
+}
+
+section div h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3, 3, 3);
+}
+u{
+    color: rgb(165, 95, 4);
+}
+footer{
+
+    text-align: right;
+    position: absolute;
+}
+@media only screen and(max-width:600px){
+    header,section div h3,u,section div h1{
+        padding: 10px;
+    }
+
+@media only screen and (min-widht:600px)and(max-widht:1024px){
+    header,section div h3,u,section div h1{
+        padding:20px;
+    }
+}
+
+}
